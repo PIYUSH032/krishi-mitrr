@@ -121,6 +121,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Project Maintainer: [Your Name] - your.email@example.com
+Project Maintainer: [Piyush Pandey] - piyush205pandey@gmail.com
 
 Project Link: [https://github.com/your-repo/krishi-mitr](https://github.com/your-repo/krishi-mitr)
