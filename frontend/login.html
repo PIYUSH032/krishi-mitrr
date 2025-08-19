@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:,">
+    <title>Login | Krishi-Mitr</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <img src="assets/logo.png" alt="Krishi-Mitr Logo" class="logo">
+            <h1>Welcome Back to Krishi-Mitr</h1>
+            <p>Connect with farmers and agricultural enthusiasts</p>
+            <div class="login-hero-image" style="
+                background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');
+                height: 150px;
+                background-size: cover;
+                background-position: center;
+                margin-top: 20px;
+                border-radius: 8px;
+                position: relative;
+            ">
+                <div style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(0,0,0,0.3);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    border-radius: 8px;
+                ">
+                    <h3 style="text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">Growing Together</h3>
+                </div>
+            </div>
+        </div>
+
+        <form id="loginForm" class="login-form">
+            <div class="form-group">
+                <label for="username"><i class="fas fa-user"></i> Username</label>
+                <input type="text" id="username" placeholder="Enter your username" autocomplete="username" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password"><i class="fas fa-lock"></i> Password</label>
+                <input type="password" id="password" placeholder="Enter your password" autocomplete="current-password" required>
+                <a href="forgot-password.html" class="forgot-password">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn-login">
+                <i class="fas fa-sign-in-alt"></i> Login
+            </button>
+
+            <div id="loginMessage" class="message-box"></div>
+        </form>
+
+        <div class="login-footer">
+            <p>New to Krishi-Mitr? <a href="register.html">Create an account</a></p>
+            <div class="social-login">
+                <p>Or login with:</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/auth.js"></script>
+</body>
+</html>

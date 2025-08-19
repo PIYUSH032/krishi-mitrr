@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Barter & Resell | Krishi-Mitr</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h2>Crop Barter & Resell</h2>
+    <nav>
+        <a href="dashboard.html">Dashboard</a> | 
+        <a href="logout.html">Logout</a>
+    </nav>
+
+    <h3>List a Crop for Barter or Resale</h3>
+    <form id="listCropForm">
+        <input type="text" id="cropName" placeholder="Crop Name" required>
+        <input type="number" id="quantity" placeholder="Quantity (kg)" required>
+        <select id="type">
+            <option value="barter">Barter</option>
+            <option value="resell">Resell</option>
+        </select>
+        <input type="number" id="price" placeholder="Price (if resell)">
+        <button type="submit">List Crop</button>
+    </form>
+
+    <h3>Available Crops</h3>
+    <div id="cropList"></div>
+
+    <script src="scripts/crop.js"></script>
+</body>
+</html>

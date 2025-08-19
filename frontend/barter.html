@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Barter & Resell</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h2>Crop Barter & Resell</h2>
+
+    <!-- Form to add a crop -->
+    <form id="addCropForm">
+        <input type="text" id="owner" placeholder="Your Name" required>
+        <input type="text" id="cropName" placeholder="Crop Name" required>
+        <select id="cropType">
+            <option value="barter">Barter</option>
+            <option value="resell">Resell</option>
+        </select>
+        <input type="number" id="price" placeholder="Price (for resell)">
+        <input type="text" id="exchangeFor" placeholder="Exchange For (for barter)">
+        <button type="submit">Add Crop</button>
+    </form>
+
+    <h3>Available Crops</h3>
+    <ul id="cropList"></ul>
+
+    <script src="scripts/crop.js"></script>
+</body>
+</html>
