@@ -1,6 +1,5 @@
 # Krishi Mitr - Farmer's Friend Platform
 
-![Krishi Mitr Logo](https://example.com/logo.png) *[Note: Add actual logo path later]*
 
 Krishi Mitr is a farmer-to-farmer platform that enables:
 - Crop bartering between farmers
